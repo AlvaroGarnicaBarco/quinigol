@@ -69,6 +69,6 @@ def get_prob_tables(jornada):
 
     my_scraper.quit()
 
-    estimado = (el + lae) / 2
+    estimado = el*0.1 + lae*0.9
 
     return estimado, real
