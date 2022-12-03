@@ -101,7 +101,7 @@ def feature_engineering(df: pd.DataFrame, recaudacion_esperada, bote) -> pd.Data
 
     Args:
         df (pd.DataFrame): añade varias variables al df construido en construccion_probabilidades()
-        recaudacion_esperada (int): recaudación esperado en la jornada
+        recaudacion_esperada (float): recaudación esperado en la jornada
         bote (float): bote de la jornada
 
     Returns:
