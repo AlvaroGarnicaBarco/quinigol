@@ -71,4 +71,4 @@ def get_prob_tables(jornada):
 
     estimado = el*0.1 + lae*0.9
 
-    return estimado, real
+    return real, estimado
