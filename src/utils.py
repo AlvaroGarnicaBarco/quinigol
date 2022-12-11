@@ -93,6 +93,5 @@ def jugadas_con_premio(jugada: str, n: int) -> list[str]:
 
 
 if __name__ == "__main__":
-    jugada = '0-0 0-0 0-0 0-0 0-0 0-0'
-    len(jugadas_con_premio(jugada, 5))
-
+    j = '0-0 0-0 0-0 0-0 0-0 0-0'
+    len(jugadas_con_premio(j, 5))
